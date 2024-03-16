@@ -1,0 +1,24 @@
+<head>
+    <title>Contact Us</title>
+    <style>
+        h1{
+            text-align: center;
+            padding:  20px;
+            background-image: url(index.jpg!bw700);
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h1> Contact Us </h1><br/>
+    <form action=" contact_us" method="post"> 
+        Name: <input type="text"  name="name" required="required"><br/><br/>
+        Email: <input type="email" name="email" required="required"><br/><br/>
+        Phone Number: <input type="number"  name="phone" maxlength="8"><br/>
+        <h4>Message</h4>
+        <textarea name="message" rows="4" cols="20" required="required">Enter your message:</textarea><br/>
+        <hr>
+        <input type="submit" value="Submit">
+    </form>
+</body>
